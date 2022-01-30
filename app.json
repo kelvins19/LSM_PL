@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "LSM_PL",
-    "slug": "LSM_PL",
+    "slug": "lsm-pl",
     "version": "1.0.0",
+    "sdkVersion": "39.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./resources/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,10 +18,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.LSM.LSMPriceList",
+      "buildNumber": "1.0.0"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.LSM.LSMPriceList",
+      "versionCode": 2
     }
   }
 }
