@@ -14,4 +14,4 @@ Run this command:
 
 ## Build The APK 
 Run this command:
-> expo build:android
+> eas build --profile production --platform android
