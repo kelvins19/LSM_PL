@@ -3,7 +3,6 @@
     "name": "LSM_PL",
     "slug": "lsm-pl",
     "version": "1.0.0",
-    "sdkVersion": "39.0.0",
     "orientation": "portrait",
     "icon": "./resources/icon.png",
     "splash": {
@@ -24,6 +23,11 @@
     "android": {
       "package": "com.LSM.LSMPriceList",
       "versionCode": 2
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c87a9611-4e8a-4324-ac26-758f924e7cb6"
+      }
     }
   }
 }
