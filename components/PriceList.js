@@ -87,7 +87,7 @@ class PriceLists extends Component {
         <TouchableOpacity style={{marginTop: 30, marginLeft: 20}} onPress={() => firebase.auth().signOut()}>
           <Text style={{color: 'gray'}}> LOGOUT </Text>
         </TouchableOpacity>
-        <Text style={{ marginTop: 10, marginLeft: 20, marginBottom: 10}} >Last Update: 15 May 2023</Text>
+        <Text style={{ marginTop: 10, marginLeft: 20, marginBottom: 10}} >Last Update: 15 Mei 2023</Text>
 
         <FlatList
           data={this.state.data}
