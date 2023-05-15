@@ -12,14 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/c87a9611-4e8a-4324-ac26-758f924e7cb6"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "bundleIdentifier": "com.LSM.LSMPriceList",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "package": "com.LSM.LSMPriceList",
@@ -29,6 +33,9 @@
       "eas": {
         "projectId": "c87a9611-4e8a-4324-ac26-758f924e7cb6"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
