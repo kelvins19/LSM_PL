@@ -10,7 +10,7 @@ Run this command:
 
 ## Publish New Price List Data without Creating New APK
 Run this command:
-> expo publish
+> eas update --platform android
 
 ## Build The APK 
 Run this command:
